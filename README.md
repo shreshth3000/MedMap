@@ -37,7 +37,8 @@ Technologies Used
 
 - Frontend: HTML/CSS/JS
 
-- Backend: Python , Tensorflow , sciPy/sklearn , Flask
+- Backend: Python , Tensorflow , sciPy/sklearn , Flask, EasyOCR
+
 
 - Deployment: Streamlit
 
