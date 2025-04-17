@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find a Specialist</title>
+  <!-- Shared styles -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Page-specific styles -->
+  <link rel="stylesheet" href="find-specialist.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-container">
+        <a href="index.html" class="logo-link">
+         
+          <h1>MedMap</h1>
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="site-nav">
+        <a href="find-specialist.html" class="nav-item active">Find a Specialist</a>
+        <a href="#nearby" class="nav-item">Nearby Doctors</a>
+        <a href="#how" class="nav-item">How It Works</a>
+        <a href="#testimonials" class="nav-item">Testimonials</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#login" class="nav-item login-item">Login / Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-specialist">
+      <div class="hero-content-specialist">
+        <h1 class="fade-in">Find the Right Specialist For You</h1>
+        <p class="fade-in delay-1">
+          Search by symptoms or specialty and get personalized recommendations instantly.
+        </p>
+        <form class="search-form fade-in delay-2">
+          <input type="text" placeholder="e.g., Cardiology, Skin Rash" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Popular Specialties -->
+    <section class="popular-specialties section">
+      <h2 class="fade-in">Popular Specialties</h2>
+      <div class="specialty-list">
+        <div class="specialty-card pop-up delay-0">Cardiologist</div>
+        <div class="specialty-card pop-up delay-1">Dermatologist</div>
+        <div class="specialty-card pop-up delay-2">Orthopedic</div>
+        <div class="specialty-card pop-up delay-3">Neurologist</div>
+        <div class="specialty-card pop-up delay-4">Pediatrician</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 MedMap. All rights reserved.</p>
+    
+      <div class="footer-disclaimer">
+        <h4>Disclaimer</h4>
+        <p>
+          The information and recommendations provided by <strong>MedMap</strong> are generated using AI models and publicly available data.
+          They are intended for informational purposes only and do not constitute medical advice, diagnosis, or treatment.
+          Always consult a qualified healthcare professional or your doctor before making any healthcare decisions.
+        </p>
+        <p>
+          <strong>MedMap</strong> does not guarantee the accuracy, completeness, or applicability of its suggestions to your specific situation.
+          In case of a medical emergency, please contact emergency services or seek immediate professional care.
+        </p>
+      </div>
+    
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+      navToggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
