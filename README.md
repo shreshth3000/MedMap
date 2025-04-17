@@ -25,7 +25,7 @@ How It Works
     After a diagnosis is uploaded, MedMap uses location data to list nearby specialists, sorted by proximity and relevance.
 
 Technologies Used
------------------
+----------------
 
 - NLP (BERT, OCR)
 
@@ -52,3 +52,6 @@ Getting Started
 
 3.  **Find Specialists**\
     Upload or select a diagnosis to view a curated list of nearby specialists.
+
+
+This project is licenced under the MIT Licence
